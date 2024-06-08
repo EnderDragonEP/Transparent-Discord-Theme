@@ -1,0 +1,20 @@
+/**
+ * @name Transparent
+ * @version 0
+ * @description Default Discord theme but transparent
+ * @author NoobieNoodle89
+ * @website http://github.com/CapnKitten
+ */
+
+ :root {
+    --custom-theme-mix-amount-base: 0% !important;
+    --black-500-hsl: hsla(0, 0%, 0%, 0) !important;
+    --primary-530: rgba(0, 0, 0, 0) !important;
+    --primary-560: rgba(0, 0, 0, 0) !important;
+    --primary-600: rgba(0, 0, 0, 0.3) !important;
+    --primary-630: rgba(0, 0, 0, 0.2) !important;
+    --primary-660: rgba(0, 0, 0, 0.3) !important;
+    --primary-700: rgba(0, 0, 0, 0.1) !important;
+    --primary-800: rgba(0, 0, 0, 0.3) !important;
+    --primary-830: rgba(0, 0, 0, 0) !important;
+ }
