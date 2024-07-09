@@ -29,4 +29,4 @@ Use [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone) to a
 
 ## Any Issues?
 
-Feel free to submit a issue!
+Feel free to submit a issue or find me on Disocrd: [noobienoodle89](https://discordapp.com/users/209309988907253760)!
