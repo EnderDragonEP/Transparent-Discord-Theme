@@ -13,7 +13,7 @@ Use [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone) to a
 
 ## How to install?
 
-* Make sure you habe Vencord or BetterDiscord installed.
+* Make sure you have Vencord or BetterDiscord installed.
 * Download the theme file from [here](https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/Transparent.theme.css).
 * Put it in your theme folder. You can usually find the folder location from `Disocrd User Settings -> Themes -> Open Themes Folder`.
 * Enable the Theme from the settings.
@@ -24,4 +24,19 @@ Use [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone) to a
 * Set Titlebar Color to `Dark`, Backdrop Type to `Acrylic` and Corner Mode to Rounded. Or you can change these options to whatever you like.
 * Enable `Extend Frame Into Client Area` and `Blur Behind` options.
 * Minimize Discord winows and restore it to to see if the effects is applied.
+* Enjoy! :3
+
+## How to Install
+
+* Make sure you have Vencord or BetterDiscord installed.
+* Download the theme file from [here](https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/Transparent.theme.css).
+* Put it in your theme folder. You can usually find the folder location from `Discord User Settings -> Themes -> Open Themes Folder`.
+* Enable the theme from your Discord Themes settings.
+* Install [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone/releases) on your PC.
+* Open Mica For Everyone and click the `+` button below, then select `Add Process Rule`.
+* Type `Discord` in the `Process Name` input field, then hit the `Add` button.
+* Select `Discord` on the left side of the Mica For Everyone application.
+* Set the Titlebar Color to `Dark`, Backdrop Type to `Acrylic`, and Corner Mode to `Rounded`. Or you can change these options to whatever you like.
+* Enable the `Extend Frame Into Client Area` and `Blur Behind` options.
+* Minimize the Discord window and restore it to see if the effects are applied.
 * Enjoy! :3
