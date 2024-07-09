@@ -32,6 +32,7 @@
       background: (0, 0, 0, 0) !important;
 }
 
-.contentWrapper_af5dbb {
+.contentWrapper_af5dbb,
+.messagesPopoutWrap_ac90a2 {
       background-color: var(--primary-800);
 }
