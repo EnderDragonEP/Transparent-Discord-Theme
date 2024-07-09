@@ -8,8 +8,9 @@
 
 Use [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone) to achieve frosted glass look!
 
-![screenshot](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/67e91304-c6b6-4594-be02-223bbc3bc71b)
-![screenshot](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/521888c6-8310-440e-860c-f8c9a59fc1ca)
+![screenshot-1](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/7e929b8f-f295-479f-be88-fecfd2b027bd)
+![screenshot-2](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/002cf241-3f86-48db-a91e-95ae86a777b7)
+![screenshot-3](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/521888c6-8310-440e-860c-f8c9a59fc1ca)
 
 ## How to Install?
 
