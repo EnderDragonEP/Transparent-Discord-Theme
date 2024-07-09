@@ -28,11 +28,12 @@
       --home-background: color-mix(in oklab, var(--plum-18) 0%, var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%));
 }
 
-.theme-dark .container__03ec9, .theme-dark .header__71942 {
+.theme-dark .container__03ec9,
+.theme-dark .header__71942 {
       background: (0, 0, 0, 0) !important;
 }
 
 .contentWrapper_af5dbb,
 .messagesPopoutWrap_ac90a2 {
-      background-color: var(--primary-800);
+      background-color: var(--primary-800) !important;
 }
