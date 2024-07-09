@@ -11,28 +11,14 @@ Use [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone) to a
 ![screenshot](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/67e91304-c6b6-4594-be02-223bbc3bc71b)
 ![screenshot](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/521888c6-8310-440e-860c-f8c9a59fc1ca)
 
-## How to install?
+## How to Install?
 
 * Make sure you have Vencord or BetterDiscord installed.
-* Download the theme file from [here](https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/Transparent.theme.css).
-* Put it in your theme folder. You can usually find the folder location from `Disocrd User Settings -> Themes -> Open Themes Folder`.
-* Enable the Theme from the settings.
-* Install [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone/releases) on your PC.
-* Open Mica For Everyone and click the `+` button below then select `Add Process Rule`.
-* Type `Discord` in the `Process Name` input field then hit the `Add` button.
-* Select `Discord` at the left side of the Mica For Everyone application.
-* Set Titlebar Color to `Dark`, Backdrop Type to `Acrylic` and Corner Mode to Rounded. Or you can change these options to whatever you like.
-* Enable `Extend Frame Into Client Area` and `Blur Behind` options.
-* Minimize Discord winows and restore it to to see if the effects is applied.
-* Enjoy! :3
-
-## How to Install
-
-* Make sure you have Vencord or BetterDiscord installed.
-* Download the theme file from [here](https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/Transparent.theme.css).
+* Enable `Enable Window Transparency` in your Discord User Settings. Note that not every client are made the same, look around or search online to find where or how to enable it.
+* Download the theme file from [here](https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/Transparent.theme.css) (right click and click `Save link as...`).
 * Put it in your theme folder. You can usually find the folder location from `Discord User Settings -> Themes -> Open Themes Folder`.
-* Enable the theme from your Discord Themes settings.
-* Install [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone/releases) on your PC.
+* Enable the theme from your Discord Themes settings and your Discord window should now be transparent.
+* Install [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone/releases).
 * Open Mica For Everyone and click the `+` button below, then select `Add Process Rule`.
 * Type `Discord` in the `Process Name` input field, then hit the `Add` button.
 * Select `Discord` on the left side of the Mica For Everyone application.
@@ -40,3 +26,7 @@ Use [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone) to a
 * Enable the `Extend Frame Into Client Area` and `Blur Behind` options.
 * Minimize the Discord window and restore it to see if the effects are applied.
 * Enjoy! :3
+
+## Any Issues?
+
+Feel free to summit a issue to me!
