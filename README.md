@@ -2,9 +2,9 @@
 
 #### Default Discord theme but transparent.
 
-> Make sure you are using the dark theme in User Settings -> Appearance.
+* Make sure you are using the dark theme in User Settings -> Appearance.
 
-> The `--custom-theme-mix-amount-base` value can letting you tweak the transparency of the theme.
+* The `--custom-theme-mix-amount-base` value can letting you tweak the transparency of the theme.
 
 Use [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone) to achieve frosted glass look!
 
