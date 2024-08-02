@@ -1,6 +1,6 @@
 :root {
       --custom-theme-mix-amount-base: 10% !important;
-
+ 
       --black-500-hsl: hsla(0, 0%, 0%, 0.5) !important;
       --primary-500-hsl: hsla(0, 0%, 0%, 0.5) !important;
       --primary-500: rgba(255, 255, 255, 0.15) !important;
@@ -12,7 +12,7 @@
       --primary-700: rgba(0, 0, 0, 0) !important;
       --primary-800: rgba(0, 0, 0, 0.75) !important;
       --primary-830: rgba(0, 0, 0, 0) !important;
-
+ 
       --background-tertiary: color-mix(in oklab,
                   var(--primary-700) 5%,
                   var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
@@ -28,8 +28,16 @@
       --home-background: color-mix(in oklab,
                   var(--plum-18) 0%,
                   var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
-}
-
-.mainCard_a6d69a {
+ }
+ 
+ .mainCard_a6d69a { /*topic card bg*/
       background: var(--background-secondary) !important;
-}
+ }
+ 
+ .link_d8bfb3 { /*channel bg*/
+      background: var(--background-primary) !important;
+ }
+ 
+ .form_a7d72e:before { /*remove chat input box shadow*/
+      background: none;
+ }
