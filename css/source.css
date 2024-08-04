@@ -30,24 +30,25 @@
                var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
 }
 
-.mainCard_a6d69a {
-     /*topic card bg*/
+.mainCard_a6d69a /*topic card bg*/
+{
      background: var(--background-secondary) !important;
 }
 
-.link_d8bfb3 {
-     /*channel bg*/
+.link_d8bfb3 /*channel bg*/
+{
      background: var(--background-primary) !important;
 }
 
-.form_a7d72e:before {
-     /*remove chat input box shadow*/
+.form_a7d72e:before /*remove chat input box shadow*/
+{
      background: none;
 }
 
-.outerWrapper_fe2299 {
-     /*make command list bg darker*/
-     background: color-mix(in oklab,
-               var(--primary-660) 80%,
-               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
+.outerWrapper_fe2299, /*make command list bg darker*/
+.container_ac201b /*make permissions list popup bg darker*/
+{ 
+     background:  color-mix(in oklab,
+          var(--primary-660) 80%,
+          var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
 }
