@@ -46,7 +46,7 @@
 }
 
 .outerWrapper_fe2299, /*make command list bg darker*/
-.container_ac201b /*make permissions list popup bg darker*/
+.container_ac201b /*make user permissions list popup bg darker*/
 { 
      background:  color-mix(in oklab,
           var(--primary-660) 80%,
