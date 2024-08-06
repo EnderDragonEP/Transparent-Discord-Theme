@@ -47,7 +47,8 @@
 
 .outerWrapper_fe2299, /*make command list bg darker*/
 .container_ac201b, /*make permissions list popup bg darker*/
-.streamPreview_adbea6  /*make stream preview popup bg darker*/
+.streamPreview_adbea6,  /*make stream preview popup bg darker*/
+.barButtonBase_cf58b5 /*make 'youre viewing older messages' bg darker*/
 { 
      background:  color-mix(in oklab,
           var(--primary-660) 80%,
