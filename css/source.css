@@ -37,7 +37,9 @@
      background: var(--background-secondary) !important;
 }
 
-.link_d8bfb3 { /*channel bg*/
+.link_d8bfb3, /*channel bg*/
+.callContainer_d880dc /*call bg*/
+{ 
      background: var(--background-primary) !important;
 }
 
