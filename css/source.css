@@ -1,15 +1,7 @@
-/**
- * @name Transparent_TEST
- * @version 0
- * @description Default Discord theme but transparent. Please set Discord to Dark theme!
- * @author NoobieNoodle89
- * @website https://github.com/EnderDragonEP/Transparent-Discord-Theme
- */
-
-
- :root {
+:root {
      --custom-theme-mix-amount-base: 10% !important;
 
+     --white-assent: rgba(255, 255, 255, 1) !important;
      --black-500-hsl: hsla(0, 0%, 0%, 0.5) !important;
      --primary-500-hsl: hsla(0, 0%, 0%, 0.5) !important;
      --primary-500: rgba(255, 255, 255, 0.15) !important;
@@ -39,7 +31,17 @@
                var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
      --modal-background: color-mix(in oklab,
                var(--primary-630) 100%,
-               var(--theme-base-color, black) var(--theme-base-color-amount, 0%))
+               var(--theme-base-color, black) var(--theme-base-color-amount, 0%)) !important;
+
+     /* color of deviders */
+     --background-modifier-accent: color-mix(in oklab,
+               var(--white-assent) 15%,
+               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
+     
+     /* color of hover overlays */
+     --background-modifier-hover: color-mix(in oklab,
+               var(--white-assent) 15%,
+               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
 }
 
 .mainCard_a6d69a, /* make topic card bg darker */
@@ -66,20 +68,4 @@
      background:  color-mix(in oklab,
           var(--primary-660) 80%,
           var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
-}
-
-.listItemContents_e05dae /* make the bg of items in friends list darker */
-{
-     background: var(--background-primary) !important;
-     border-radius: 8px !important;
-}
-
-.userInfo_f3939d /* move avater to the right a big in friend list */
-{
-     margin-left: 15px;
-}
-
-.actions_e05dae /* move actions to the left a big in friend list */
-{
-     margin-right: 15px;
 }
