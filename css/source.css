@@ -1,4 +1,13 @@
-:root {
+/**
+ * @name Transparent_TEST
+ * @version 0
+ * @description Default Discord theme but transparent. Please set Discord to Dark theme!
+ * @author NoobieNoodle89
+ * @website https://github.com/EnderDragonEP/Transparent-Discord-Theme
+ */
+
+
+ :root {
      --custom-theme-mix-amount-base: 10% !important;
 
      --black-500-hsl: hsla(0, 0%, 0%, 0.5) !important;
@@ -33,14 +42,14 @@
                var(--theme-base-color, black) var(--theme-base-color-amount, 0%))
 }
 
-.mainCard_a6d69a /* make topic card bg darker */
+.mainCard_a6d69a, /* make topic card bg darker */
+.itemCard_f02fcf /* make friend activity card bg darker */
 { 
      background: var(--background-secondary) !important;
 }
 
 .link_d8bfb3,/* make channel bg darker */
-.callContainer_d880dc, /* make call bg transparent */
-.listItemContents_e05dae /* make the bg of items in friends list darker */
+.callContainer_d880dc /* make call bg transparent */
 {
      background: var(--background-primary) !important;
 }
@@ -57,4 +66,20 @@
      background:  color-mix(in oklab,
           var(--primary-660) 80%,
           var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
+}
+
+.listItemContents_e05dae /* make the bg of items in friends list darker */
+{
+     background: var(--background-primary) !important;
+     border-radius: 8px !important;
+}
+
+.userInfo_f3939d /* move avater to the right a big in friend list */
+{
+     margin-left: 15px;
+}
+
+.actions_e05dae /* move actions to the left a big in friend list */
+{
+     margin-right: 15px;
 }
