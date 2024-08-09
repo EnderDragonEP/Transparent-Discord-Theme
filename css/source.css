@@ -40,13 +40,14 @@
      
      /* color of hover overlays */
      --background-modifier-hover: color-mix(in oklab,
-               var(--white-assent) 15%,
+               var(--white-assent) 10%,
                var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
 }
 
 .mainCard_a6d69a, /* make topic card bg darker */
-.itemCard_f02fcf /* make friend activity card bg darker */
-{ 
+.itemCard_f02fcf, /* make friend activity card bg darker */
+.popout_e6af9c /* make new group dm popup bg darker */
+{
      background: var(--background-secondary) !important;
 }
 
@@ -68,4 +69,15 @@
      background:  color-mix(in oklab,
           var(--primary-660) 80%,
           var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
+}
+
+.scroller_bf550a, /* remove border at the left side of activity list*/
+.wrapper_cd82a7 /* remove borders for activity cards*/
+{
+     border: none;
+}
+
+.quickswitcher_f4e139 /* add border to quick switcher */
+{
+     border: 1px solid var(--background-modifier-accent);
 }
