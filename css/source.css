@@ -1,4 +1,4 @@
- :root {
+:root {
      --custom-theme-mix-amount-base: 10% !important;
 
      --white-assent: rgba(255, 255, 255, 1) !important;
@@ -54,12 +54,21 @@
 .link_d8bfb3,/* make channel bg darker */
 .callContainer_d880dc /* make call bg transparent */
 {
-     background: var(--background-primary) !important;
+     background: var(--primary-560) !important;
 }
 
 .form_a7d72e:before { /*remove chat input box shadow*/
      background: none;
 }
+
+.wrapper_ba23fe, /* remove emoji picker left column bg */
+.wrapper_e06857, /* remove emoji picker header bg */
+.inspector_c3120f, /* remove emoji picker bottom inspector bg */
+.container_b56bbc, /* remove GIF picker bg */
+.header_b56bbc /* remove GIF picker header bg */ {
+     background-color: rgba(0, 0, 0, 0) !important;;
+}
+
 
 .outerWrapper_fe2299, /*make command list bg darker*/
 .container_ac201b, /*make permissions list popup bg darker*/
