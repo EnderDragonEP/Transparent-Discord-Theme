@@ -1,6 +1,6 @@
 # Transparent Discord Theme 🎮🪟
 
-## **Update Announcemen**
+## **Update Announcement**
 * Feb 9, 2025 - **Discord has gone though a major update and the theme is now updated and added more user customizations!**
 I'm still serving my compulsory military service, so bug fixes may be delayed. Feel free to submit an issue or reach out to me on Discord: [noobienoodle89](https://discordapp.com/users/209309988907253760)
 
