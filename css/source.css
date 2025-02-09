@@ -1,100 +1,47 @@
-:root {
-     --custom-theme-mix-amount-base: 10% !important;
+ :root {
+     --theme-base-color-amount: 10%;
+     --accent-color: var(--os-accent-color);
+     --background-color: rgba(0, 0, 0, 0.05);
 
-     --white-assent: rgba(255, 255, 255, 1) !important;
-     --black-500-hsl: hsla(0, 0%, 0%, 0.5) !important;
-     --primary-500-hsl: hsla(0, 0%, 0%, 0.5) !important;
-     --primary-500: rgba(255, 255, 255, 0.15) !important;
-     --primary-530: rgba(0, 0, 0, 0) !important;
-     --primary-560: rgba(0, 0, 0, 0) !important;
-     --primary-600: rgba(0, 0, 0, 0.15) !important;
-     --primary-630: rgba(0, 0, 0, 0.5) !important;
-     --primary-660: rgba(0, 0, 0, 0.7) !important;
-     --primary-700: rgba(0, 0, 0, 0.25) !important;
-     --primary-800: rgba(0, 0, 0, 0.75) !important;
-     --primary-830: rgba(0, 0, 0, 0) !important;
-
-     --background-tertiary: color-mix(in oklab,
-               var(--primary-700) 5%,
-               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
-     --background-secondary: color-mix(in oklab,
-               var(--primary-660) 0%,
-               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
-     --background-secondary-alt: color-mix(in oklab,
-               var(--primary-660) 0%,
-               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
-     --background-primary: color-mix(in oklab,
-               var(--primary-660) 5%,
-               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
-     --home-background: color-mix(in oklab,
-               var(--plum-18) 0%,
-               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
-     --modal-background: color-mix(in oklab,
-               var(--primary-630) 100%,
-               var(--theme-base-color, black) var(--theme-base-color-amount, 0%)) !important;
-
-     /* color of deviders */
-     --background-modifier-accent: color-mix(in oklab,
-               var(--white-assent) 15%,
-               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
+     --t_2: rgba(0, 0, 0, 0.05);
+     --t_3: rgba(0, 0, 0, 0.15);
+     --t_5: rgba(0, 0, 0, 0.5);
+     --t_7: rgba(0, 0, 0, 0.75);
      
-     /* color of hover overlays */
-     --background-modifier-hover: color-mix(in oklab,
-               var(--white-assent) 10%,
-               var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
+     --bg-brand: var(--accent-color) !important;
+     --brand-500: var(--accent-color) !important;
+
+     /* primary color for the entire bg */
+     --neutral-76: var(--background-color);
+
+     /* secondary color like friend list and chat member list bg */
+     --neutral-72: var(--t_2);
+
+     /* bg base low like input area and user control panel at the bottom left corner and chat text input bo*/
+     --neutral-69: var(--t_3);
+
+     /* info cards, embedded and hover pop-up bg */
+     --neutral-66: var(--t_7);
+
+     /* card items like plugin and theme list bg */
+     --neutral-79: var(--t_5);
+
+     /* floating cards like context menu and drop downs bg */
+     --neutral-63: var(--t_5);
+     
+     /* user popup */
+     --neutral-92: var(--t_7);
 }
 
-.mainCard_a6d69a, /* make topic card bg darker */
-.itemCard_f02fcf, /* make friend activity card bg darker */
-.popout_e6af9c /* make new group dm popup bg darker */
-{
-     background: var(--background-secondary) !important;
+/* call and stage bg */
+.callContainer_cb9592.theme-dark.images-dark,
+.callContainer__722ff.theme-dark.images-dark,
+.rowContainer__8a920,
+.scroller__56ccd,
+.participants__9c309,
+.tileContainer__71eb2 {
+     background-color: var(--t_3) !important;
 }
 
-.link_d8bfb3,/* make channel bg darker */
-.callContainer_d880dc /* make call bg transparent */
-{
-     background: var(--primary-560) !important;
-}
-
-.form_a7d72e:before, /*remove chat input box shadow*/
-.contentContainer_a56260, /* remove discover tab bg */
-.container_a56260 /* remove discover tab bg */ { 
-     background: none !important;
-}
-
-.contentContainer_a56260 /* remove discover tab bg */ {
-     backdrop-filter: none !important;
-}
-
-.wrapper_ba23fe, /* remove emoji picker left column bg */
-.wrapper_e06857, /* remove emoji picker header bg */
-.inspector_c3120f, /* remove emoji picker bottom inspector bg */
-.container_b56bbc, /* remove GIF picker bg */
-.header_b56bbc /* remove GIF picker header bg */ {
-     background-color: rgba(0, 0, 0, 0) !important;;
-}
-
-
-.outerWrapper_fe2299, /*make command list bg darker*/
-.container_ac201b, /*make permissions list popup bg darker*/
-.streamPreview_adbea6,  /*make stream preview popup bg darker*/
-.barButtonBase_cf58b5, /*make 'youre viewing older messages' bg darker*/
-.videoControls_f72aac, /*make video controls bg darker*/
-.backdrop_accde0 /* make discover tab header bg darker */
-{ 
-     background:  color-mix(in oklab,
-          var(--primary-660) 80%,
-          var(--custom-theme-mix-base, black) var(--custom-theme-mix-amount-base, 0%)) !important;
-}
-
-.scroller_bf550a, /* remove border at the left side of activity list*/
-.wrapper_cd82a7 /* remove borders for activity cards*/
-{
-     border: none;
-}
-
-.quickswitcher_f4e139 /* add border to quick switcher */
-{
-     border: 1px solid var(--background-modifier-accent);
-}
+/* add friend input box bg  */
+.addFriendInputWrapper__72ba7 {background-color: var(--t_5);}
