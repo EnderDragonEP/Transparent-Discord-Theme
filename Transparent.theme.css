@@ -1,14 +1,23 @@
 /**
  * @name Transparent
- * @version 1.0.0
- * @description Default Discord theme but transparent. Please set Discord to Dark theme!
+ * @version 2.0.0
+ * @description Transparent v2. Default Discord theme but transparent. Please set Discord to Dark theme!
  * @author NoobieNoodle89
  * @website https://github.com/EnderDragonEP/Transparent-Discord-Theme
  */
 
-/* @import url(https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/css/source.css); */
-@import url(https://enderdragonep.github.io/Transparent-Discord-Theme/css/source.css);
+ @import url(https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/css/source.css);
 
-:root {
-     --custom-theme-mix-amount-base: 10% !important; /* Change this to whatever you like! default is 10% */
-}
+ :root {
+      /* Change this to whatever you like */
+      --theme-base-color-amount: 10%; /* default: 10% */
+
+
+      /* Accent Color */
+      --accent-color: var(--os-accent-color); /* default: var(--os-accent-color) */
+      /* Discord default accent color: rgb(90, 101, 234) */
+
+
+      /* background Color */
+      --background-color: rgba(0, 0, 0, 0.05); /* default: rgba(0, 0, 0, 0.05) */
+ }
