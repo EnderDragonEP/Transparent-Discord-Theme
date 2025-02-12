@@ -5,6 +5,7 @@
 ## **Update Announcement**
 * Feb 9, 2025 - **Discord has gone though a major update and the theme is now updated and added more user customizations! Downloding [new](https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/Transparent.theme.css) theme file is required!**
 I'm still serving my compulsory military service, so bug fixes may be delayed. Feel free to submit an issue or reach out to me on Discord: [noobienoodle89](https://discordapp.com/users/209309988907253760)
+* Feb 12, 2025 - User reported that the transparent background did not work. A fix is on its way but may take some times...
 
 ---
 
