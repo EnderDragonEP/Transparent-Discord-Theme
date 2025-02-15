@@ -21,9 +21,10 @@ I'm still serving my compulsory military service, so bug fixes may be delayed. F
 
 Use [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone) to achieve frosted glass look!
 
-![screenshot-1](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/7e929b8f-f295-479f-be88-fecfd2b027bd)
-![screenshot-2](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/002cf241-3f86-48db-a91e-95ae86a777b7)
+![screenshot-1](https://github.com/user-attachments/assets/7c7f92d2-5148-46a3-a8e9-c4cb12e019e7)
+![screenshot-2](https://github.com/user-attachments/assets/64536c82-5f79-4989-a54a-2b27a5777527)
 ![screenshot-3](https://github.com/EnderDragonEP/Transparent-Discord-Theme/assets/30905525/521888c6-8310-440e-860c-f8c9a59fc1ca)
+
 
 ## How to Install?
 
