@@ -10,8 +10,8 @@
      --t075: rgba(0, 0, 0, 0.75);
      
 
-     /* brand accent color */
-     --bg-brand: var(--accent-color) !important;
+     /* brand accent color hover */
+     --bg-brand: color-mix(in oklab,var(--accent-color) 90%,var(--theme-base-color,#000)) !important;
 
      /* button color */
      --brand-500: var(--accent-color) !important;
@@ -74,3 +74,14 @@
 
 /* background color for app panel */
 .slideContent__9c62c {background-color: var(--background-surface-high);}
+
+.visual-refresh .childWrapperNoHoverBg__6e9f8 {background-color: var(--accent-color);}
+
+/* check mark toggle bg */
+.checked__87bf1 {background-color: var(--accent-color) !important;}
+
+/* server selector indicator */
+/* .item__58105 {background-color: var(--accent-color);} */
+
+/* button bg */
+/* :where(.visual-refresh) .button__201d5 {background-color: var(--accent-color);} */
