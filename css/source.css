@@ -50,7 +50,10 @@
      /* friend finder input box */
      --neutral-83: var(--t030);
      
+     /* hashtag signs bg for the start of a channel */
+     --neutral-59: var(--accent-color);
 
+     
      /* message hover utility bar bg */
      --background-surface-highest: color-mix(in oklab,var(--t050) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
 
