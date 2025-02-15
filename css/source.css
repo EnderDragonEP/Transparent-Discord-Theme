@@ -9,8 +9,19 @@
      --t050: rgba(0, 0, 0, 0.5);
      --t075: rgba(0, 0, 0, 0.75);
      
+
+     /* brand accent color */
      --bg-brand: var(--accent-color) !important;
+
+     /* button color */
      --brand-500: var(--accent-color) !important;
+
+     /* button activate color */
+     --brand-560: color-mix(in oklab,var(--accent-color) 80%,var(--theme-base-color,#000)) !important;
+
+     /* button hover color */
+     --brand-600: color-mix(in oklab,var(--accent-color) 80%,var(--theme-base-color,#000)) !important;
+
 
      /* primary color for the entire bg */
      --neutral-76: var(--background-color);
@@ -31,11 +42,22 @@
      --neutral-79: var(--t050);
 
      /* floating cards like context menu and drop downs bg */
-     --neutral-63: var(--t050);
+     --neutral-63: var(--t075);
      
      /* user popup */
      --neutral-92: var(--t075);
-}
+
+     /* friend finder input box */
+     --neutral-83: var(--t030);
+     
+
+     /* message hover utility bar bg */
+     --background-surface-highest: color-mix(in oklab,var(--t050) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
+
+     /* friend activity bg */
+     --background-primary: color-mix(in oklab,var(--t015) 0%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
+     --background-surface-high: color-mix(in oklab,var(--t030) 0%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
+}    
 
 /* call and stage bg */
 .callContainer_cb9592.theme-dark.images-dark,
@@ -47,14 +69,5 @@
      background-color: var(--t015) !important;
 }
 
-/* friend input box bg */
-.addFriendInputWrapper__72ba7 {background-color: var(--t050);}
-
 /* background color for app panel */
-.container__927fc {background-color: var(--t075);}
-
-/* message hover utility bar bg */
-.message__5126c:hover .buttonsInner__5126c {background-color: var(--t050);}
-
-/* now playing background bg */
-.visual-refresh .panel__5dec7 {background-color: var(--t030);}
+.slideContent__9c62c {background-color: var(--background-surface-high);}
