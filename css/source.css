@@ -1,12 +1,13 @@
- :root {
+:root {
      --theme-base-color-amount: 10%;
      --accent-color: var(--os-accent-color);
      --background-color: rgba(0, 0, 0, 0.05);
 
-     --t_2: rgba(0, 0, 0, 0.05);
-     --t_3: rgba(0, 0, 0, 0.15);
-     --t_5: rgba(0, 0, 0, 0.5);
-     --t_7: rgba(0, 0, 0, 0.75);
+     --t005: rgba(0, 0, 0, 0.05);
+     --t015: rgba(0, 0, 0, 0.15);
+     --t030: rgba(0, 0, 0, 0.3);
+     --t050: rgba(0, 0, 0, 0.5);
+     --t075: rgba(0, 0, 0, 0.75);
      
      --bg-brand: var(--accent-color) !important;
      --brand-500: var(--accent-color) !important;
@@ -15,22 +16,25 @@
      --neutral-76: var(--background-color);
 
      /* secondary color like friend list and chat member list bg */
-     --neutral-72: var(--t_2);
+     --neutral-72: var(--t005);
 
      /* bg base low like input area and user control panel at the bottom left corner and chat text input bo*/
-     --neutral-69: var(--t_3);
+     --neutral-69: var(--t015);
 
      /* info cards, embedded and hover pop-up bg */
-     --neutral-66: var(--t_7);
+     --neutral-66: var(--t075);
+
+     /* apps in this server cards bg */
+     --neutral-65: var(--t075);
 
      /* card items like plugin and theme list bg */
-     --neutral-79: var(--t_5);
+     --neutral-79: var(--t050);
 
      /* floating cards like context menu and drop downs bg */
-     --neutral-63: var(--t_5);
+     --neutral-63: var(--t050);
      
      /* user popup */
-     --neutral-92: var(--t_7);
+     --neutral-92: var(--t075);
 }
 
 /* call and stage bg */
@@ -40,8 +44,17 @@
 .scroller__56ccd,
 .participants__9c309,
 .tileContainer__71eb2 {
-     background-color: var(--t_3) !important;
+     background-color: var(--t015) !important;
 }
 
-/* add friend input box bg  */
-.addFriendInputWrapper__72ba7 {background-color: var(--t_5);}
+/* friend input box bg */
+.addFriendInputWrapper__72ba7 {background-color: var(--t050);}
+
+/* background color for app panel */
+.container__927fc {background-color: var(--t075);}
+
+/* message hover utility bar bg */
+.message__5126c:hover .buttonsInner__5126c {background-color: var(--t050);}
+
+/* now playing background bg */
+.visual-refresh .panel__5dec7 {background-color: var(--t030);}

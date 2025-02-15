@@ -2,18 +2,22 @@
 
 [How to install?](#how-to-install)
 
-## **Update Announcement**
-* Feb 9, 2025 - **Discord has gone though a major update and the theme is now updated and added more user customizations! Downloding [new](https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/Transparent.theme.css) theme file is required!**
+## Update Announcement
+
+* **Feb 9, 2025** - **Discord has gone though a major update and the theme is now updated and added more user customizations! Downloding [new](https://raw.githubusercontent.com/EnderDragonEP/Transparent-Discord-Theme/main/Transparent.theme.css) theme file is required!**
 I'm still serving my compulsory military service, so bug fixes may be delayed. Feel free to submit an issue or reach out to me on Discord: [noobienoodle89](https://discordapp.com/users/209309988907253760)
-* Feb 12, 2025 - User reported that the transparent background did not work. A fix is on its way but may take some times...
+* **Feb 12, 2025** - User reported that the transparent background did not work. A fix is on its way but may take some times.
+* **Feb 15, 2025** - If window transparency is still not working after enabling the option in the respective patch, try reinstalling Discord and reapplying the patch to restore the background transparency effect.
 
 ---
 
-#### Default Discord theme but transparent
+*Default Discord theme but transparent*
 
-* Make sure you are using the Dark appearance in Discord `User Settings -> Appearance`.
+* Make sure you are using the Dark appearance in Discord `User Settings -> Appearance`
 
-* The `--custom-theme-mix-amount-base` value can letting you tweak the transparency of the theme.
+* The `--theme-base-color-amount` value can letting you tweak the transparency of the theme
+* `--background-color` allows you to change the background color
+* `--accent-color` allows you to change the accent color. Default is using accent color from your os
 
 Use [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone) to achieve frosted glass look!
 
