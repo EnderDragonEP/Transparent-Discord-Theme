@@ -10,14 +10,16 @@
 
  :root {
       /* Change this to whatever you like */
-      --theme-base-color-amount: 10%; /* default: 10% */
+      --theme-base-color-amount: 12%;
 
 
       /* Accent Color */
-      --accent-color: var(--os-accent-color); /* default: var(--os-accent-color) */
+      /* default: var(--os-accent-color) */
       /* Discord default accent color: rgb(90, 101, 234) */
+      --accent-color: var(--os-accent-color);
 
 
       /* background Color */
-      --background-color: rgba(0, 0, 0, 0); /* default: rgba(0, 0, 0, 0) */
+      /* default: rgba(0, 0, 0, 0) */
+      --background-color: rgba(0, 0, 0, 0);
  }
